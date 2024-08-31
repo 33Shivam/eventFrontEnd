@@ -1,0 +1,38 @@
+.blue, .teal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+  }
+  .blue {
+    border: 10px solid #ffffff73;
+    height: 40px;
+    width: 40px;
+    transform-origin: center;
+    animation: blue 4s infinite ease-in-out 0.3s alternate;
+  }
+  .teal {
+    border: 10px solid #cccccc41;
+    top: 10px;
+    left: 10px;
+    height: 20px;
+    width: 20px;
+    animation: teal 5s infinite ease-in-out alternate;
+  }
+  @keyframes blue {
+    0% {transform: scale(1);}
+    40% {transform: scale(1.5);}
+    100% {transform: scale(0.5);}
+  }
+  @keyframes teal {
+    0% {transform: scale(1);}
+    40% {transform: scale(2);}
+    100% {transform: scale(0.4);}
+  }
+  
+
+  .containerCircle{
+    position: relative;
+    margin-left: 45%;
+    margin-bottom: 10%;
+  }

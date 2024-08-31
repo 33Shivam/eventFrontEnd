@@ -1,0 +1,36 @@
+.main{
+    position: fixed;
+    top: 80vh;
+    left: 45vw;
+  background-color: rgba(127, 255, 212, 0);
+    
+}
+
+
+.icon{
+    width: 24px;
+    height: 24px;
+    
+
+}
+
+/* .icon:hover{
+    transform: scale(1.2);
+} */
+
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    border-radius: 4px;
+    transition: transform  0.3s, color 0.3s; /* Smooth transition for background-color and color */
+    
+}
+
+.box:hover{
+background-color: white;
+color: black;
+transform: scale(1.2);
+}

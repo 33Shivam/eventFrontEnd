@@ -1,0 +1,37 @@
+.badgeContainer{
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    z-index: -1;
+    
+    position: absolute;
+}
+
+
+.loggedHeadText{  
+    font-weight: lighter;
+    letter-spacing: 8px;
+    text-transform: capitalize;
+    margin: 0px ;
+}
+
+.leftFlex{
+    height: 100%;
+
+}
+
+.circle1{
+    margin-right: 40%;
+    width: 100px;
+  height: 100px;
+  border-radius: 50%; /* Makes the element round */
+  background-color: white;
+}
+
+.badgeContainer {
+  width: 100%;
+  height: 60vh;
+  top: 10%;
+  position: relative;
+  z-index: 0;
+}
